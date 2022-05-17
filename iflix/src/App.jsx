@@ -1,10 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Tasks from './components/Tasks';
 import './App.css';
 
-function App() {
+const App = () => {
+  //const message = 'hello world';
+  const [tasks, setTasks] = useState([
+    {
+      id: '1',
+      title: 'Estudar Programação',
+      completed: false,
+    },
+    {
+      id: '2',
+      title: 'Ler Livros',
+      completed: true,
+    },
+  ])
   return (
-    <div className="App">
-     
+    <div>
+      <div className="container">
+      
+          <Tasks />
+
+      </div>
       
     </div>
   );
