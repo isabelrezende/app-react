@@ -1,11 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import Header from './components/Header';
+import MenuLateral from './components/MenuLateral';
 import App from './App';
+//import Footer from './components/Footer';
+import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <Header />
+      <div className='main'>
+        <MenuLateral />
+        <App />
+        </div>
+      {/* <Footer /> */}
+    </div>
   </React.StrictMode>
 );

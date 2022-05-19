@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-height: 100%;
+}
+
+.menulateral{
+    background-color: #444;
+    border: 1px solid whitesmoke;
+    width: 15%;
+}
+
