@@ -6,8 +6,25 @@
 }
 
 .menulateral{
-    background-color: #444;
-    border: 1px solid whitesmoke;
+    background-color: white;
+    border-right: 2px solid whitesmoke;
     width: 15%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
+.flexrow{
+    border-left: 2px solid #a0e1e9;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.flexrow:hover{
+    background-color: #a0e1e9;
+}
+
+.flexrow *{
+    margin-right: 2.5px;
+}
