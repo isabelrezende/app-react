@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Header.css';
 
 const Header= () => {
@@ -8,9 +9,18 @@ const Header= () => {
            <img src="" alt="avatar_usuario" />
            <div className="nav">
                <ul>
-                   <li>Perfil</li>
-                   <li>Preferências</li>
-                   <li>Sair</li>
+                   <li>
+                       <Link to="/">Início</Link>
+                   </li>
+                   <li>
+                       <Link to = "perfil">Perfil</Link>
+                   </li>
+                   <li>
+                       <Link to = "preferencias">Preferências</Link>
+                   </li>
+                   <li>
+                       <Link to ="broken">Sair</Link>
+                   </li>
                </ul>
            </div>
        </div>
