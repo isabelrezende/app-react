@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+![Logotipo contendo três triângulos deitados no lado esquerdo da tela e o nome iFlix ao lado direito da tela.](https://user-images.githubusercontent.com/100247401/169149477-c56ec779-487a-429e-a10a-f23ee322a625.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+<img src="https://user-images.githubusercontent.com/100247401/169153499-53eb2a6a-e5d7-43bb-b846-49d5e6cf611f.jpg"/>
+</p>
 
-## Available Scripts
+<p align="center">
+<a href="#sobre-o-projeto">Sobre</a> •
+<a href="#funcionalidades">Funcionalidades</a> •    
+<a href="#abrir-e-rodar-o-projeto">Acesso</a> • 
+<a href="#tecnologias-utilizadas">Tecnologias</a> •
+<a href="#desenvolvedores-do-projeto">Desenvolvedores</a>
+</p>
+  
+## Sobre o Projeto
+**Projeto Integrador para disciplina de Desenvolvimento de Sistemas Orientado a Dispositivos Móveis e Baseados na Web. É um projeto que tem como finalidade uma aplicação onde podem ser armazenadas URL's de vídeos de outras plataformas, podendo organiza-las em pastas e criar playlists personalizadas pelos próprios usuários.**
 
-In the project directory, you can run:
+**Para acessar a plataforma disponibilizamos recursos de cadastro na página inicial, onde é informado dados relevantes (nome, data de nascimento, e-mail e senha), sendo possível manter acesso constante.**
 
-### `npm start`
+**O iFlix pode ser usado para diferentes meios, porém contempla aqueles com maior interesse em mídias sendo seu público alvo jovens, criadores de conteúdos e estudantes.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades
 
-### `npm test`
+- [x] ***Armazenar URL de vídeos sejam esses do YouTube®, Vimeo®, ou qualquer outra plataforma em que a publicação esteja pública;***
+- [ ] ***Cadastrar usuários;***
+- [x] ***Criar playlist;***
+- [x] ***Criar títulos para URL's.***
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Abrir e rodar o projeto
 
-### `npm run build`
+*Para baixar o projeto [clique aqui](https://github.com/ariane312/app-react.git).*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Acesso ao Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*No diretório do projeto, você pode executar:*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### `npm start`
 
-### `npm run eject`
+*Executa o aplicativo no modo de desenvolvimento.*\
+*Abrir [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*A página será recarregada quando você fizer alterações.*\
+***Você também pode ver erros de lint no console.***
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### `npm test`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*Inicia o executor de teste no modo de exibição interativa.*\
+*Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### `npm run build`
 
-## Learn More
+*Compila o aplicativo para produção na pasta `build`.*\
+*Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.*
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*A compilação é reduzida e os nomes dos arquivos incluem os hashes.*\
+*Seu aplicativo está pronto para ser implantado!*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+*Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.*
 
-### Code Splitting
+#### `npm run eject`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+***Nota: esta é uma operação unidirecional. Depois de 'ejetar', você não pode voltar!***
 
-### Analyzing the Bundle Size
+*Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, você pode `ejetar` a qualquer momento.*\
+*Este comando removerá a dependência de compilação única do seu projeto.*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+*Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc)*\
+*diretamente em seu projeto para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão,*\
+*mas eles apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto você está por conta própria.*
 
-### Making a Progressive Web App
+*Você não precisa usar `eject`. O conjunto de recursos com curadoria é adequado para implantações pequenas e médias,*\
+*e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se*\
+*você não pudesse personalizá-la quando estiver pronto para isso.*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tecnologias Utilizadas
 
-### Advanced Configuration
+- [**`JavaScript`**](https://www.javascript.com/)
+- [**`HTML/CSS`**](https://html.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Desenvolvedores do Projeto 
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [**`Ariane Rodrigues de Almeida`**](https://github.com/ariane312)
+- [**`Cristal Celestino de Oliveira`**](https://github.com/criscelestino)
+- [**`Daniela Gomes Farias Silva`**](https://github.com/DanielaGMS)
+- [**`Danilo de Freitas Silva`**](https://github.com/DaniloFreitas8)
+- [**`Diogo Santos de Souza`**](https://github.com/milremmirror)
+- [**`Gustavo Lima da Silveira`**](https://github.com/Gust1995)
+- [**`Isabel da Silva Rezende`**](https://github.com/isabelrezende)
+- [**`Laila Ferreira Garcia`**](https://github.com/Lailafg)
